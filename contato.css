@@ -108,3 +108,23 @@ form button:hover{
 .btn:hover{
     border-radius: 16px;
 }
+/* Seu CSS existente */
+
+/* Adicione as regras de mídia query para dispositivos móveis e tablets */
+@media only screen and (max-width: 600px) {
+  /* Estilos para dispositivos móveis */
+  section h2 {
+    font-size: 2em; /* Reduz o tamanho da fonte para telas menores */
+  }
+  
+  /* Adicione outras regras de estilo conforme necessário para dispositivos móveis */
+}
+
+@media only screen and (min-width: 601px) {
+  /* Estilos para tablets e telas maiores */
+  section h2 {
+    font-size: 2.5em; /* Ajuste o tamanho da fonte para telas maiores */
+  }
+  
+  /* Adicione outras regras de estilo conforme necessário para tablets e telas maiores */
+}
